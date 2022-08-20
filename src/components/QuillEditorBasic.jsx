@@ -5,12 +5,8 @@ export const modules = {
   toolbar: [
     [{ header: ['', 5, 4, 3] }],
     ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-    [
-      { list: 'ordered' },
-      { list: 'bullet' },
-      { indent: '-1' },
-      { indent: '+1' },
-    ],
+    [{ list: 'ordered' }, { list: 'bullet' }],
+    [{ indent: '-1' }, { indent: '+1' }, { align: [] }],
     ['clean'],
   ],
   clipboard: {
