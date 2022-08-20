@@ -3,8 +3,7 @@ import 'react-quill/dist/quill.snow.css';
 
 export const modules = {
   toolbar: [
-    [{ header: '3' }, { header: '2' }, { font: [] }],
-    [{ size: [] }],
+    [{ header: ['', 5, 4, 3] }],
     ['bold', 'italic', 'underline', 'strike', 'blockquote'],
     [
       { list: 'ordered' },
@@ -12,7 +11,6 @@ export const modules = {
       { indent: '-1' },
       { indent: '+1' },
     ],
-    ['link', 'image', 'video'],
     ['clean'],
   ],
   clipboard: {
@@ -23,8 +21,6 @@ export const modules = {
 
 export const formats = [
   'header',
-  'font',
-  'size',
   'bold',
   'italic',
   'underline',
@@ -33,9 +29,6 @@ export const formats = [
   'list',
   'bullet',
   'indent',
-  'link',
-  'image',
-  'video',
 ];
 
 const QuillEditorBasic = ({ value, setValue, placeholder }) => {
