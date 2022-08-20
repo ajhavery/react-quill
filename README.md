@@ -8,7 +8,10 @@
 
 # Quill toolbar options
 
-Type | Option
-Inline | font, size, background, color, bold, italic, script, strike, underline, link, code
-Block | header, list, blockquote, direction, indent, align, codeblock
-Embed | image, video
+| Type   | Option                                                                             |
+| ------ | ---------------------------------------------------------------------------------- |
+| Inline | font, size, background, color, bold, italic, script, strike, underline, link, code |
+| ---    | ---                                                                                |
+| Block  | header, list, blockquote, direction, indent, align, codeblock                      |
+| ---    | ---                                                                                |
+| Embed  | image, video                                                                       |
